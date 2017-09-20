@@ -12,9 +12,7 @@ class Factory implements Factorable
 {
     const WINTERFELL = 'winterfell';
 
-    protected static $knownTerritories = [
-        self::WINTERFELL
-    ];
+    protected static $knownTerritories = [self::WINTERFELL];
 
     public static function create(string $territoryName): TerritoryOfWesteros
     {
@@ -49,5 +47,4 @@ class Factory implements Factorable
 
         return $territory;
     }
-
 }
