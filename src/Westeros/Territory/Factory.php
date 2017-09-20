@@ -2,7 +2,6 @@
 
 namespace Westeros\Territory;
 
-use Westeros\Territory\Factorable;
 use Westeros\Family;
 use Westeros\Person;
 use Westeros\Sword;
